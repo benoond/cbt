@@ -51,7 +51,7 @@
                         </div> 
                         <div class="col-md-6"> 
                             <label>Award</label> 
-                            <select name="class[]" class="form-control"> 
+                            <select name="award_in_view[]" class="form-control"> 
                                 <option value="">Select Class</option> 
                                 @foreach($awards as $award) 
                                 <option value="{{ $award->award_in_view }}"> {{ $award->award_in_view }} </option> 
