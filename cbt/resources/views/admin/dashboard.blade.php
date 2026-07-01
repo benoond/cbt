@@ -1,14 +1,6 @@
 
 
 <x-layout title="Dashboard" heading="Dashboard">
-        <main class="main">
-            <header>
-                <button class="menu-btn">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <h2>Dashboard</h2>
-                <img class="avatar" src="https://i.pravatar.cc/100">
-            </header>
             <div class="content">
                 <div class="cards">
                     <div class="card">

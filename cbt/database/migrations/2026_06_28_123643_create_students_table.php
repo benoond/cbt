@@ -17,12 +17,12 @@ return new class extends Migration
             $table->string('course_name');
             $table->string('award_in_view');
             $table->string('matric_no')->nullable();
-            $table->string('level');
+            $table->string('level')->nullable();
             $table->string('academic_session');
             $table->string('name_of_applicant');
-            $table->string('state');
-            $table->string('lga');
-            $table->string('gender');
+            $table->string('state')->nullable();
+            $table->string('lga')->nullable();
+            $table->string('gender')->nullable();
             $table->timestamps();
         });
     }

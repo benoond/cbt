@@ -1,0 +1,43 @@
+account id
+application status
+screening fee
+shortlist status
+department
+category
+program class
+course name
+study type
+award-in-view
+jamb regn. no.
+matric. no.
+entry mode
+application
+academic session
+name of applicant
+state
+lga
+gender
+data capture date
+
+
+
+ACCOUNT ID
+APPLICATION STATUS
+SCREENING FEE
+SHORTLIST STATUS
+DEPARTMENT
+CATEGORY
+PROGRAM CLASS
+COURSE NAME
+STUDY TYPE
+AWARD-IN-VIEW
+JAMB REGN. NO.
+MATRIC. NO.
+ENTRY MODE
+APPLICATION
+ACADEMIC SESSION
+NAME OF APPLICANT
+STATE
+LGA
+GENDER
+DATA CAPTURE DATE

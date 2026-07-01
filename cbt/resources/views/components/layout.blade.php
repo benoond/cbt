@@ -22,6 +22,9 @@
             background: #eef3ff;
 
         }
+        input, select{
+            border:2px solid midnightblue !important;
+        }
         .wrapper {
 
             display: flex;
@@ -347,29 +350,72 @@ MAIN
                 <li class="dropdown">
                     <div class="dropdown-btn">
                         <span>
+                            <i class="fa fa-box"></i>
+                            CBT
+                        </span>
+                        <i class="fa fa-chevron-down arrow"></i>
+                    </div>
+                    <div class="submenu">
+                        <a href="{{ route('addcbt') }}">Add CBT</a>
+                        <!-- <a href="#">Lecturers List</a>
+                        <a href="#">Orders</a> -->
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-btn">
+                        <span>
                             <i class="fa fa-users"></i>
                             Students
                         </span>
                         <i class="fa fa-chevron-down arrow"></i>
                     </div>
                     <div class="submenu">
-                        <a href="#">All Students</a>
-                        <a href="{{ route('addstudents') }}">Add Students</a>
-                        <a href="#">Roles</a>
+                        <a href="{{ route('addstudents') }}">Upload Students</a>
+                        <a href="{{ route('addonestudents') }}">Add Student</a>
+                        <a href="{{ route('allstudents') }}">All Students</a>
+                        <a href="{{ route('studentscategory') }}">Student Category</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-btn">
+                        <span>
+                            <i class="fa fa-users"></i>
+                            Courses
+                        </span>
+                        <i class="fa fa-chevron-down arrow"></i>
+                    </div>
+                    <div class="submenu">
+                        <a href="{{ route('addcourses') }}">Add Course</a>
+                        <a href="{{ route('allcourses') }}">All Courses</a>
+                        <a href="{{ route('coursedepartment') }}">Add Dept to Course</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <div class="dropdown-btn">
                         <span>
                             <i class="fa fa-box"></i>
-                            Products
+                            Lecturers
                         </span>
                         <i class="fa fa-chevron-down arrow"></i>
                     </div>
                     <div class="submenu">
-                        <a href="#">Products</a>
-                        <a href="#">Categories</a>
+                        <a href="#">Add Lecturer</a>
+                        <a href="#">Lecturers List</a>
                         <a href="#">Orders</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-btn">
+                        <span>
+                            <i class="fa fa-box"></i>
+                            Exam
+                        </span>
+                        <i class="fa fa-chevron-down arrow"></i>
+                    </div>
+                    <div class="submenu">
+                        <a href="{{ route('addexam') }}">Add Exam</a>
+                        <!-- <a href="#">Lecturers List</a>
+                        <a href="#">Orders</a> -->
                     </div>
                 </li>
                 <li>
@@ -440,5 +486,6 @@ MAIN
     </script>
 
     <script src="{{ asset('js/bootstrap.js') }}"></script>
+    @stack('scripts')
 </body>
 </html>
